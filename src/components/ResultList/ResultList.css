@@ -1,0 +1,12 @@
+.list{
+    width: 60%;
+    height: 50vh;
+    margin: 0 auto;
+    background-color: black;
+}
+
+/* @media(max-width:600px){
+    .list{
+        width: 80%;
+    }
+} */

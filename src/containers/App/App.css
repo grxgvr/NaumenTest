@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+.App {
+  font-family: 'Exo 2', sans-serif;
+  width: 100vw;
+  height: 100%;
+  top:0;
+  left: 0;
+  position: fixed;
+  transition: all 0.2s linear;
+  overflow-y: scroll;
+}
+
+.error{
+  font-size: 22px;
+  width:40%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.info{
+  color: rgb(48, 48, 48);
+  text-align: center;
+  font-size: 18px;
+  margin: 10px;
+}
+
+@media(max-width:600px){
+  .info{
+    font-size: 15px;
+  }
+  .error{
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,24 @@
+.Controls{
+    margin: 10px auto 40px;
+    width:100%;
+    height:10px;
+    text-align: center;
+    font-size: 18px;
+}
+.PageBtn{
+    cursor: pointer;
+    margin: 0 10px;
+}
+.PageBtn:hover{
+    text-decoration: underline;
+}
+.Current{
+    color:rgb(233, 16, 16);
+}
+
+@media(max-width:600px){
+    .Controls{
+        font-size: 14px;
+        margin: 10px auto 30px;
+    }
+}

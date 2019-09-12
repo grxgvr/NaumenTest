@@ -1,0 +1,62 @@
+.paletteBox{
+    width: 150px;
+    height: 400px;
+    position: fixed;
+    transition: 0.2s all linear;
+}
+
+.palette{
+    color: white;
+    position: fixed;
+}
+
+.theme{
+    width: 70px;
+    height: 70px;
+    margin: 20px 45px;
+    border: 2px solid rgb(27, 27, 27);
+    cursor: pointer;
+}
+.blue{
+    background: linear-gradient(to right, rgb(176, 192, 245), rgb(13, 136, 185));
+}
+.violet{
+    background: linear-gradient(to right top, rgb(203, 139, 240), rgb(99, 5, 136));
+}
+.orange{
+    background: linear-gradient(to right top, rgb(148, 9, 9), rgb(231, 123, 34));
+}
+.green{
+    background: linear-gradient(to right top, rgb(3, 74, 133), rgb(0, 211, 105));
+}
+.close{
+    transform: translateX(-150px);
+    background: none;
+}
+.open{
+    transform: translateX(-30px);
+    background-color: rgba(20, 20, 20, 0.9);
+    border-radius: 25px 0;
+}
+
+.icon{
+    display: block;
+    margin:6px 3px;
+    color:rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    cursor: pointer;
+}
+.icon:hover{
+    color:white;
+}
+.toggle{
+    width:40px;
+    height: 40px;
+    margin: 0px 150px;
+    padding: 5px;
+}
+@media(max-width:600px){
+    .icon{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,11 @@
+.sort{
+    background-color: transparent;
+    font-size: inherit;
+    color:inherit;
+    border:none;
+    width:auto;
+    margin: 5px 0;
+}
+.sort:focus{
+    outline: none;
+}

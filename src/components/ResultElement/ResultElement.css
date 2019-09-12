@@ -1,0 +1,53 @@
+.searchmatch{
+    color: red;
+}
+
+.ResultElement{
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px 20px 10px;
+    margin: 20px 0;
+    height: 100px;
+}
+
+.ResultElement h1{
+    margin-bottom: 0px;
+}
+
+.ResultElement hr{
+    margin-bottom: 20px;
+    border: 1px solid rgba(31, 31, 31, 0.7);
+}
+
+.ResultElement p{
+    margin: 30px 0;
+}
+
+.ResultElement a{
+    width:70px;
+    display:block;
+    text-decoration: none;
+    color: rgb(13, 54, 116);
+    margin:20px 0;
+}
+
+.ResultElement a:hover{
+    color: rgb(15, 91, 206);
+    text-decoration: underline;
+}
+
+.ResultElement a:visited{
+    color: rgb(81, 34, 209);
+}
+
+@media(max-width:600px){
+    .ResultElement{
+        font-size: 14px;
+    }
+    .ResultElement h1{
+        font-size: 25px;
+    }
+    .ResultElement p{
+        margin:10px 0;
+    }
+}
