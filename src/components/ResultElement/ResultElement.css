@@ -3,11 +3,10 @@
 }
 
 .ResultElement{
-    background-color: black;
+    background-color: rgba(218, 218, 218, 0.3);
     border-radius: 30px;
     padding: 5px 20px 10px;
     margin: 20px 0;
-    height: 100px;
 }
 
 .ResultElement h1{
